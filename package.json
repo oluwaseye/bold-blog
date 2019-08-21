@@ -1,0 +1,23 @@
+{
+  "name": "bold-blog",
+  "version": "1.0.0",
+  "description": "bold-blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluwaseye/bold-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oluwaseye/bold-blog/issues"
+  },
+  "homepage": "https://github.com/oluwaseye/bold-blog#readme",
+  "dependencies": {
+    "tailwindcss": "^1.1.2"
+  }
+}
