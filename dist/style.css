@@ -11387,6 +11387,12 @@ video {
   background-color: #63b3ed;
 }
 
+#hero-slider{
+  min-height: 72vh;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

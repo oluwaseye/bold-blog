@@ -12,22 +12,25 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="bg-white-100">
-    <!--Hero Slider-->
-    <div id="hero-slider">
-      <!--Container-->
-      <div id="hero-slider-container" class="container">
-        <!--Topbar-->
-        <div class="topbar">
-          <!--Logo-->
-          <div class="logo"></div>
+    <!--Topbar-->
+    <div id="topbar" class="min-w-full fixed">
+        <div class="container flex items-center  py-6  border-b-2 border-white-600">
+            <!--Logo-->
+          <h1 id="logo" class="text-5xl text-white uppercase">BOLD BLOG</h1>
           <!--Links-->
-          <div class="links">
-            <ul>
-              <li><a href="">Social</a></li>
-              <li><a href="">Search</a></li>
+          <div class="links flex-auto items-center">
+            <ul class="flex flex-row content-center justify-end">
+              <li id="social" class="mx-4"><a href="" class="text-white text-xl uppercase">Social</a></li>
+              <li class=" mx-4"><a href=""class="text-white text-xl uppercase">Search</a></li>
             </ul>
           </div>
         </div>
+      </div>
+    <!--Hero Slider-->
+    <div id="hero-slider" class="bg-top bg-no-repeat bg-cover min-h-screen" style="background-image: url('/dist/img/lady.jpg');">
+      <!--Container-->
+      <div id="hero-slider-container" class="container">
+        
       </div>
     </div>
  
