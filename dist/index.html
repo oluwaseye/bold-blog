@@ -9,6 +9,7 @@
     <title>Tutorial</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Roboto:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="bg-white-100">
@@ -16,12 +17,12 @@
     <div id="topbar" class="min-w-full fixed">
         <div class="container flex items-center  py-6  border-b-2 border-white-600">
             <!--Logo-->
-          <h1 id="logo" class="text-5xl text-white uppercase">BOLD BLOG</h1>
+          <h1 id="logo" class="text-5xl text-white uppercase font-serif font-thin">BOLD BLOG</h1>
           <!--Links-->
           <div class="links flex-auto items-center">
             <ul class="flex flex-row content-center justify-end">
-              <li id="social" class="mx-4"><a href="" class="text-white text-xl uppercase">Social</a></li>
-              <li class=" mx-4"><a href=""class="text-white text-xl uppercase">Search</a></li>
+              <li id="social" class="mx-4"><a href="" class="text-white text-xl uppercase font-serif font-light">Social</a></li>
+              <li class=" mx-4"><a href=""class="text-white text-xl uppercase font-serif font-light">Search</a></li>
             </ul>
           </div>
         </div>
@@ -30,16 +31,16 @@
     <div id="hero-slider" class="bg-top bg-no-repeat bg-cover min-h-screen flex items-center" style="background-image: url('/dist/img/madison.jpg');">
       <!--Container-->
       <div id="hero-slider-container" class="container ">
-        <div id="wrapper" class="item flex flex-col content-end text-white uppercase w-6/12 ">
-            <h3 id="title" class="text-5xl leading-tight py-4 ">Madison Beer Is Taking Back Her Voice — This Time On Her Own Terms</h3>
-            <p id="author text-sm">BY <a href="" class="no-underline text-purple-300">TINA KOLOKATHIS</a></p>
-            <p id="date" class="py-2 text-xs">3 WEEKS AGO</p>
+        <div id="wrapper" class="item flex flex-col content-end text-white w-6/12 ">
+            <h3 id="title" class="text-5xl leading-tight py-4 font-serif font-light capitalize">Madison Beer Is Taking Back Her Voice — This Time On Her Own Terms</h3>
+            <p id="author text-sm font-sans">BY <a href="" class="no-underline text-purple-300 uppercase">TINA KOLOKATHIS</a></p>
+            <p id="date" class="py-2 text-xs font-sans uppercase">3 WEEKS AGO</p>
         </div>
       </div>
     </div>
     <!--Categories Menu-->
     <div id="categories" class="container">
-      <ul class="flex flex-row items-center justify-between py-8 text-2xl uppercase">
+      <ul class="flex flex-row items-center justify-between py-8 text-2xl uppercase font-serif font-light">
         <li><a href="">News</a></li>
         <li><a href="">Experience</a></li>
         <li><a href="">Style</a></li>
@@ -49,19 +50,51 @@
       </ul>
     </div>
 
-    <div id="articles" class="container flex flex-row uppercase">
-      <div class="article">
-        <img src="/dist/img/jordyn.jpg" alt="" class="object-cover">
-        <div id="info"  class="pt-6"><p><a href="" class="text-sm text-red-500">News</a> / 20 mins ago</p></div>
-        <h4 id="title" class="text-2xl leading-tight py-4 ">Jordyn Woods’ New Comments About Kylie Jenner Suggest Their Friendship Can Be Saved</h4>
-      </div>
+    <div id="articles" class="container flex flex-row flex-wrap uppercase">
 
-      <div class="article">
-          <img src="/dist/img/jordyn.jpg" alt="" class="object-cover">
-          <div id="info" class="pt-6"><p><a href="" class="text-sm text-red-500">News</a> / 20 mins ago</p></div>
-          <h4 id="title" class="text-2xl leading-tight py-4 ">Jordyn Woods’ New Comments About Kylie Jenner Suggest Their Friendship Can Be Saved</h4>
-        </div>
+            <div class="article w-1/2 pb-12 ">
+              <a href="">
+                <div class="h-70 bg-top bg-no-repeat bg-cover" style="background-image: url('/dist/img/jordyn.jpg');"></div>
+              <div id="info" class="pt-6">
+                <p><span href="" class="text-sm text-red-500">Entertianment</span> / 20 mins ago</p>
+              </div>
+              <h4 id="title" class="text-2xl leading-tight py-4 capitalize">Jordyn Woods’ New Comments About Kylie Jenner Suggest Their Friendship Can Be Saved</h4>
+            </a>
+            </div>
+            
+            <div class="article w-1/2 pb-12 ">
+            <a href="">
+            <div class="h-70 bg-top bg-no-repeat bg-cover" style="background-image: url('/dist/img/lady.jpg');"></div>
+              <div id="info" class="pt-6">
+                <p><span href="" class="text-sm text-red-500">Entertianment</span> / 20 mins ago</p>
+              </div>
+              <h4 id="title" class="text-2xl leading-tight py-4 capitalize">Jordyn Woods’ New Comments About Kylie Jenner Suggest Their Friendship Can Be Saved</h4>
+              </a>
+            </div>
+
+             <div class="article w-1/2 pb-12">
+                <a href="">
+              <div class="h-70 bg-top bg-no-repeat bg-cover" style="background-image: url('/dist/img/jordyn.jpg');"></div>
+              <div id="info" class="pt-6">
+                <p><span href="" class="text-sm text-red-500">Entertianment</span> / 20 mins ago</p>
+              </div>
+              <h4 id="title" class="text-2xl leading-tight py-4 capitalize">Jordyn Woods’ New Comments About Kylie Jenner Suggest Their Friendship Can Be Saved</h4>
+              </a>
+            </div>
+
+            <div class="article w-1/2 pb-12">
+                <a href="">
+             <div class="h-70 bg-top bg-no-repeat bg-cover" style="background-image: url('/dist/img/madison.jpg');"></div>
+              <div id="info" class="pt-6">
+                <p><span href="" class="text-sm text-red-500">Entertianment</span> / 20 mins ago</p>
+              </div>
+              <h4 id="title" class="text-2xl leading-tight py-4 capitalize">Jordyn Woods’ New Comments About Kylie Jenner Suggest Their Friendship Can Be Saved</h4>
+              </a>
+            </div>
     </div>
+    </div>
+
+    
 
 
   </body>
