@@ -9,7 +9,8 @@ module.exports = {
       'sans': ['Roboto', 'Arial', 'sans-serif'],
     },
     height: {
-      '70': '20rem'
+      'carousel-media': '30rem',
+      'article-media': '24rem'
     }
   },
   variants: {},
