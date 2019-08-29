@@ -10,7 +10,8 @@ module.exports = {
     },
     height: {
       'carousel-media': '30rem',
-      'article-media': '24rem'
+      'article-media': '24rem',
+      'article-media-sm':'18rem'
     }
   },
   variants: {},

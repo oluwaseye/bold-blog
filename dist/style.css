@@ -3737,6 +3737,10 @@ video {
   height: 24rem;
 }
 
+.h-article-media-sm {
+  height: 18rem;
+}
+
 .leading-none {
   line-height: 1;
 }
@@ -14412,6 +14416,10 @@ video {
     height: 24rem;
   }
 
+  .sm\:h-article-media-sm {
+    height: 18rem;
+  }
+
   .sm\:leading-none {
     line-height: 1;
   }
@@ -25062,6 +25070,10 @@ video {
 
   .md\:h-article-media {
     height: 24rem;
+  }
+
+  .md\:h-article-media-sm {
+    height: 18rem;
   }
 
   .md\:leading-none {
@@ -35716,6 +35728,10 @@ video {
     height: 24rem;
   }
 
+  .lg\:h-article-media-sm {
+    height: 18rem;
+  }
+
   .lg\:leading-none {
     line-height: 1;
   }
@@ -46366,6 +46382,10 @@ video {
 
   .xl\:h-article-media {
     height: 24rem;
+  }
+
+  .xl\:h-article-media-sm {
+    height: 18rem;
   }
 
   .xl\:leading-none {
